@@ -1,12 +1,14 @@
-# Site
-name: 'Adventures of Nomad Mahmud'
-description: 'A journey to nomad tech'
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.ico'
-baseurl: '/am-mahmud.github.io'
-disqus: 'nomadmahmudsite'
-email: 'wowthemesnet@gmail.com'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+# Site Info
+name: "Adventures of Nomad Mahmud"
+title: "Adventures of Nomad Mahmud"
+description: "A journey through Web Development, DevOps, and tech experiments."
+logo: "assets/images/logo.png"
+favicon: "assets/images/favicon.ico"
+baseurl: ""                # Set to "" if using am-mahmud.github.io (root GitHub Pages)
+url: "https://am-mahmud.github.io"  # Your GitHub Pages site URL
+disqus: "nomadmahmudsite"
+email: "am.mahmud@gmail.com"  # Update to your real email
+# mailchimp-list: ""         # Add only if you plan to use Mailchimp
 
 include: ["_pages"]
 permalink: /:title/
@@ -17,24 +19,23 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-seo-tag
-  
+
+# Author Info
 authors:
-    sal:
-      name:          Asif Mahmud
-      site:           https://am-mahmud.github.io
-      avatar:         /assets/images/avatar1.jpg
-      bio:            "Hi, I am Asif Mahmud, this is my tech nomad adventure diary. I hope you like it!"
-      # email:          wowthemesnet@gmail.com
+  nomad:
+    name: "Asif Mahmud"
+    site: "https://am-mahmud.github.io"
+    avatar: "/assets/images/avatar1.jpg"
+    bio: "Hi, I am Asif Mahmud, a tech nomad sharing my adventures in Web Development, DevOps, and cloud technologies."
 
 # Defaults
 defaults:
-
   # all posts
   - scope:
       path: "_posts"
     values:
       layout: post
-      author: sal
+      author: nomad
       avatar: /assets/images/avatar1.jpg
       
   # all pages
@@ -47,10 +48,9 @@ defaults:
 markdown: kramdown
 highlighter: rouge
 
-# Paginate
+# Pagination
 paginate: 10
+paginate_path: "/page:num/"
 
-
-
-# Exclude metadata and development time dependencies (like Grunt plugins)
+# Exclusions
 exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
