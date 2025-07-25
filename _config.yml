@@ -1,9 +1,11 @@
-title: Long Haul
-description: Long Form Jekyll theme built with SASS
+title: "Adventures of Nomad Mahmud"
+description: "A journey through tech, DevOps, and web adventures."
 
-url: https://long-haul.netlify.app
-# Only necessary when hosting your site in a sub-directory. Project sites hosted on GitHub Pages are the common use-case of this variable.
-baseurl: # Ex: /project-page
+# Website URL
+url: "https://am-mahmud.github.io"
+# Base URL (leave empty if using root domain)
+baseurl: "" 
+
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
@@ -11,31 +13,39 @@ permalink: blog/:title/
 # header: large
 
 sass:
-    style: compressed
+  style: compressed
 
 markdown: kramdown
 highlighter: rouge
-plugins: [jekyll-paginate]
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
 paginate: 5
 
+# Navigation Links
 navigation:
-    - title: Home
-      url: /index.html
-    - title: About
-      url: /about
-    - title: Contact
-      url: /contact
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about
+  - title: "Contact"
+    url: /contact
+  - title: "Categories"
+    url: /categories/
 
+# Social Links
 social:
-    github: brianmaierjr
-    twitter: brianmaierjr
-    facebook: brianmaierjr
-    email: brimaidesigns@gmail.com
-    linkedin: brianmaierjr
-    youtube: RickAstleyYT
-    tumblr: i-am-a-fish
+  github: am-mahmud
+  # email: am.mahmud.dev@gmail.com
+  linkedin: am-mahmud
+  # youtube: NomadMahmudYT
 
-google_analytics: "UA-58263416-1"
+# Google Analytics Tracking ID
+google_analytics: ""
 
+# Disqus Comments
 disqus:
-    shortname: brianmaierjr
+  shortname: nomadmahmudsite
