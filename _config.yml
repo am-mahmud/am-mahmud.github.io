@@ -1,56 +1,41 @@
-# Site Info
-name: "Adventures of Nomad Mahmud"
-title: "Adventures of Nomad Mahmud"
-description: "A journey through Web Development, DevOps, and tech experiments."
-logo: "assets/images/logo.png"
-favicon: "assets/images/favicon.ico"
-baseurl: ""                # Set to "" if using am-mahmud.github.io (root GitHub Pages)
-url: "https://am-mahmud.github.io"  # Your GitHub Pages site URL
-disqus: "nomadmahmudsite"
-email: "am.mahmud@gmail.com"  # Update to your real email
-# mailchimp-list: ""         # Add only if you plan to use Mailchimp
+title: Long Haul
+description: Long Form Jekyll theme built with SASS
 
-include: ["_pages"]
-permalink: /:title/
+url: https://long-haul.netlify.app
+# Only necessary when hosting your site in a sub-directory. Project sites hosted on GitHub Pages are the common use-case of this variable.
+baseurl: # Ex: /project-page
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
 
-# Plugins
-plugins: 
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-seo-tag
+# Header Option
+# header: large
 
-# Author Info
-authors:
-  nomad:
-    name: "Asif Mahmud"
-    site: "https://am-mahmud.github.io"
-    avatar: "/assets/images/avatar1.jpg"
-    bio: "Hi, I am Asif Mahmud, a tech nomad sharing my adventures in Web Development, DevOps, and cloud technologies."
+sass:
+    style: compressed
 
-# Defaults
-defaults:
-  # all posts
-  - scope:
-      path: "_posts"
-    values:
-      layout: post
-      author: nomad
-      avatar: /assets/images/avatar1.jpg
-      
-  # all pages
-  - scope:
-      path: "_pages"
-    values:
-      layout: page
-      
-# Syntax
 markdown: kramdown
 highlighter: rouge
+plugins: [jekyll-paginate]
+paginate: 5
 
-# Pagination
-paginate: 10
-paginate_path: "/page:num/"
+navigation:
+    - title: Home
+      url: /index.html
+    - title: About
+      url: /about
+    - title: Contact
+      url: /contact
 
-# Exclusions
-exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
+social:
+    github: brianmaierjr
+    twitter: brianmaierjr
+    facebook: brianmaierjr
+    email: brimaidesigns@gmail.com
+    linkedin: brianmaierjr
+    youtube: RickAstleyYT
+    tumblr: i-am-a-fish
+
+google_analytics: "UA-58263416-1"
+
+disqus:
+    shortname: brianmaierjr
