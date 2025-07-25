@@ -17,9 +17,9 @@ authors:
     name: Asif Mahmud
     display_name: Nomad Mahmud
     avatar: 'assets/images/avatar1.jpg'
-    email: am.mahmud.dev@gmail.com
+    email: am.mahmudasif@gmail.com
     web: https://am-mahmud.github.io
-    twitter: https://twitter.com/NomadMahmud
+    # twitter: https://twitter.com/NomadMahmud
     description: "Hi, I'm Asif Mahmud — documenting my journey as a tech nomad through Web Development, DevOps, and beyond."
 
 # Plugins
