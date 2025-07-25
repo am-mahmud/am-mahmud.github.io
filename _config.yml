@@ -10,8 +10,8 @@ plugins:
 
 # Site Settings
 title: "Adventures of Nomad Mahmud"
-url: "https://am-mahmud.github.io" # Change to your GitHub Pages URL
-baseurl: "" # Leave empty if root site, otherwise "/repo-name"
+url: "https://am-mahmud.github.io"
+baseurl: "/am-mahmud.github.io" 
 
 # Pagination
 paginate: 5
