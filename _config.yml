@@ -10,7 +10,7 @@ plugins:
 
 # Site Settings
 title: "Adventures of Nomad Mahmud"
-url: "https://am-mahmud.github.io"
+url: "https://am-mahmud.github.io" # Change to your GitHub Pages URL
 baseurl: "/am-mahmud.github.io" 
 
 # Pagination
@@ -47,4 +47,4 @@ sass:
   style: compressed
 
 include:
-  - assets/css/custom.css
+  - assets/css/custom.scss
