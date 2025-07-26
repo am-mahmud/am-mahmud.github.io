@@ -1,0 +1,16 @@
+title: Nomad Mahmud
+description: A tech journey.
+baseurl: "" # Leave blank if hosting at root
+url: ""     # Add your site URL later
+
+# Build settings
+markdown: kramdown
+theme: null
+
+# Plugins (optional but useful)
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+
+# Google Fonts
+google_fonts: "Noto+Sans:wght@400;700&display=swap"
