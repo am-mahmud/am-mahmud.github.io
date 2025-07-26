@@ -1,16 +1,36 @@
-title: Nomad Mahmud
-description: A tech journey.
-baseurl: "" # Leave blank if hosting at root
-url: ""     # Add your site URL later
+title: "Adventures of Nomad Mahmud"
+email: am.mahmudasif@gmail.com
+timezone: "Asia/Dhaka"
+baseurl: ""             # No subdirectory since it's am-mahmud.github.io
+permalink: "/:title/"
+author: "nomadmahmud"
 
-# Build settings
+# Pagination (optional - for future use if needed)
+paginate: 10
+
+# Language and Locale
+locale: en_us
+lang: en_us
+
+# Markdown Setup
 markdown: kramdown
-theme: null
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
 
-# Plugins (optional but useful)
-plugins:
-  - jekyll-seo-tag
+# Social Links (optional - edit/remove if not needed)
+social:
+  facebook: https://facebook.com/yourprofile
+  twitter: https://twitter.com/yourprofile
+  instagram: https://instagram.com/yourprofile
+
+# Plugins (only the ones GitHub Pages supports)
+plugins: 
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
-# Google Fonts
-google_fonts: "Noto+Sans:wght@400;700&display=swap"
+# Feed
+feed_items: 10
+feed_update_period: daily
+feed_update_frequency: 1
