@@ -1,0 +1,40 @@
+/* _sass/base.scss */
+$primary-color: green;
+$text-color: black;
+$background-color: white;
+
+body {
+  background-color: $background-color;
+  color: $text-color;
+  font-family: 'Noto Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* _sass/base.scss */
+
+/* Colors */
+$primary-color: green;
+$text-color: black;
+$background-color: white;
+
+/* Font */
+$font-family: 'Noto Sans', sans-serif;
+$font-size-base: 16px;
+$font-size-lg: 1.25rem;  // ~20px
+$font-size-xl: 2rem;     // ~32px
+
+/* Spacing */
+$spacing-xs: 0.5rem;
+$spacing-sm: 1rem;
+$spacing-md: 2rem;
+$spacing-lg: 3rem;
+
+body {
+  background-color: $background-color;
+  color: $text-color;
+  font-family: $font-family;
+  font-size: $font-size-base;
+  margin: 0;
+  padding: 0;
+}
