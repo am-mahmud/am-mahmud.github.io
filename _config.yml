@@ -1,64 +1,58 @@
-# Site
-name: "Adventures of Nomad Mahmud"
-title: "Adventures of Nomad Mahmud"
-description: "Exploring Web Development, DevOps, and everything tech."
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.ico'
-baseurl: ""  # Leave empty for root GitHub Pages
-google_analytics: '' # Add GA ID if needed
-disqus: 'nomadmahmudsite'
-mailchimp-list: ''  # Add your Mailchimp list URL if needed
-include: ["_pages"]
-permalink: /:title/
+title: Adventures of Nomad Mahmud
+description: A Tech Nomad's Journey – Web Dev, DevOps & More
 
-# Authors
-authors:
-  mahmud:
-    name: Asif Mahmud
-    display_name: Nomad Mahmud
-    avatar: 'assets/images/avatar1.jpg'
-    email: am.mahmudasif@gmail.com
-    web: https://am-mahmud.github.io
-    # twitter: https://twitter.com/NomadMahmud
-    description: "Hi, I'm Asif Mahmud — documenting my journey as a tech nomad through Web Development, DevOps, and beyond."
+url: https://am-mahmud.github.io
+# Use baseurl if hosting in a subfolder, leave blank for root domain
+baseurl: ""  # Ex: /project-page
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
 
-# Plugins
+# Header Option
+# header: large
+
+sass:
+  style: compressed
+
+markdown: kramdown
+highlighter: rouge
 plugins:
   - jekyll-paginate
-  - jekyll-sitemap
   - jekyll-feed
+  - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-archives
-    
-# Archives
-jekyll-archives:
-  enabled:
-    - categories
-  layout: archive
-  permalinks:
-    category: '/category/:name/'
-    
-# Pagination 
-paginate: 6
-paginate_path: /page:num/
-    
-# Markdown & Syntax
-markdown: kramdown
+paginate: 5
 
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    block:
-      line_numbers: true
+# Navigation menu
+navigation:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Blog
+    url: /blog/
+  - title: Contact
+    url: /contact/
 
-# Adsense (Set to "enabled" and add your ad client ID to activate)
-adsense: "disabled"
-adsense-data-ad-client: ""
-adsense-data-ad-slot: ""
+# Social links
+social:
+  github: am-mahmud
+  twitter: nomadmahmud
+  facebook: nomadmahmud
+  email: asif.mahmud@example.com
+  linkedin: asif-mahmud
+  youtube: NomadMahmudTech
+  tumblr: ""
 
-# Lazy Images ("enabled" or "disabled")
-lazyimages: "disabled"
+# Google Analytics
+google_analytics: "UA-XXXXXXX-X"  # Replace with your own tracking ID
 
-# Exclude
-exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
+# Disqus comments
+disqus:
+  shortname: nomadmahmudsite
+
+# Exclude unnecessary files from build
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
