@@ -89,3 +89,31 @@ nav ul li a {
     margin: 0 auto;             
     text-align: justify;    
 }
+
+/* Footer */
+
+.footer-top-container{
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.footer-top-container p{
+  font-size: 0.8rem;
+  width: 100%;
+}
+
+.social-contact{
+  margin-top: 30px;
+  justify-content: center;
+  gap: 10px;
+}
+
+.footer-bottom-container{
+  border-top: 1px solid black;
+  justify-content: space-between;
+}
+
+.footer-bottom-container p{
+  font-size: 0.8rem;
+}
