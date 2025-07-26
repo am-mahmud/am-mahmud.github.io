@@ -46,10 +46,6 @@ social:
 # Google Analytics
 google_analytics: "UA-XXXXXXX-X"  # Replace with your own tracking ID
 
-# Disqus comments
-disqus:
-  shortname: nomadmahmudsite
-
 # Exclude unnecessary files from build
 exclude:
   - README.md
