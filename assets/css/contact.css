@@ -101,7 +101,8 @@ form input[type="submit"] {
 }
 
 form input[type="submit"]:hover {
-  background-color: black;
+  color: black;
+  background-color: white;
 }
 
 /* Footer */
