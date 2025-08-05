@@ -9,14 +9,14 @@
     <link rel="stylesheet" href="./assets/css/style.css">
      <!-- Tailwind CDN -->
      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <title>NLD</title>
+    <title>Nomadlab</title>
 </head>
 <body class="px-4 md:px-8 lg:px-12 py-1 work-sans-font ">
     <header>
         <div class="flex justify-center items-center">
-            <h1 class="text-[#000000] text-lg md:text-xl lg:text-2xl">Nomad</h1>
-            <img class="h-8 w-8" src="./assets/images/nomadlab - hero.png" alt="" srcset="">
-            <h1 class="text-[#000000] text-lg md:text-xl lg:text-2xl">Lab</h1>
+            <!-- <h1 class="text-[#000000] text-lg md:text-xl lg:text-2xl">Nomad</h1> -->
+            <img class="h-10 w-10" src="./assets/images/nomadlab - hero.png" alt="" srcset="">
+            <!-- <h1 class="text-[#000000] text-lg md:text-xl lg:text-2xl">Lab</h1> -->
         </div>
 
         <div>
@@ -24,32 +24,46 @@
         </div>
 
         <div class="flex justify-center items-center mt-10">
-            <button class="px-4 py-2 text-black text-lg font-medium hover:bg-[#E5E5E5] hover:text-black animate-bounce">Let's Talk</button>
+            <button class="px-4 py-2 text-black text-lg font-medium hover:bg-[#E5E5E5] hover:text-black float" style="animation-delay: 0s;">Let's Talk</button>
         </div>
 
         <div class="text-black text-base flex justify-center mt-10 gap-1">
             <ul class="relative top-8">
-                <li class="text-white hover:bg-[#E5E5E5] hover:text-black bg-black px-5 py-3"><a href="">Service</a></li>
+                <li class="text-white hover:bg-[#E5E5E5] hover:text-black bg-black px-5 py-3 float" style="animation-delay: 0s;"><a href="">Service</a></li>
             </ul>
             <ul class="relative top-4">
-                <li class="text-white  hover:bg-[#E5E5E5] hover:text-black bg-black px-5 py-3"><a href="">Work</a></li>
+                <li class="text-white  hover:bg-[#E5E5E5] hover:text-black bg-black px-5 py-3 float" style="animation-delay: 0.2s;"><a href="">Work</a></li>
             </ul>
             <ul class="relative top-0">
-                <li class="text-white  hover:bg-[#E5E5E5] hover:text-black bg-black px-5 py-3"><a href="">Contact</a></li>
+                <li class="text-white  hover:bg-[#E5E5E5] hover:text-black bg-black px-5 py-3 float" style="animation-delay: 0.4s;"><a href="">Contact</a></li>
             </ul>
         </div>
 
     </header>
     <main class="mt-26">
 
-        <h1 class="bg-[#E5E5E5] py-52 text-black text-4xl md:text-8xl lg:text-8xl font-bold px-10 leading-tight md:leading-[5rem] lg:leading-[8rem] ">Shhh! <br>Developer <br> is working.</h1>
+        <div class="bg-[#E5E5E5] py-32 lg:py-52 grid grid-flow-col-1 md:grid-cols-2 lg:grid-cols-2">
         
+        <div>
+            <h1 class="text-black text-4xl md:text-8xl lg:text-8xl font-bold pl-10 leading-tight md:leading-[5rem] lg:leading-[8rem]">Crafted<br>to perform.</h1>
+        </div>
+      
+        <div class="flex justify-center gap-1 pr-10">
+            <div class="w-10 h-10 lg:w-24 lg:h-24 bg-black relative top-7 hover:text-white float"  style="animation-delay: 0s;"><p class="text-6xl font-bold text-center pt-5">C</p></div>
+            <div class="w-10 h-10 lg:w-24 lg:h-24 bg-black relative top-10  hover:text-white float" style="animation-delay: 0.2s;"><p class="text-6xl font-bold text-center pt-5">R</p></div>
+            <div class="w-10 h-10 lg:w-24 lg:h-24 bg-black relative top-7  hover:text-white float" style="animation-delay: 0.4s;"><p class="text-6xl font-bold text-center pt-5">A</p></div>
+            <div class="w-10 h-10 lg:w-24 lg:h-24 bg-black relative top-10  hover:text-white float" style="animation-delay: 0.6s;"><p class="text-6xl font-bold text-center pt-5">F</p></div>
+            <div class="w-10 h-10 lg:w-24 lg:h-24 bg-black relative top-7   hover:text-white float" style="animation-delay: 0.8s;"><p class="text-6xl font-bold text-center pt-5">T</p></div>
+        </div>
+        
+        
+        </div>
     </main>
     <footer>
         <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-10 mt-16">
             <div>
+            <p class="text-black font-medium text-lg">Nomadlab.dev</p>
              <p>&lt;code meets craft/&gt;</p>
-             <p class="text-black font-medium">Nomadlab.dev</p>
         </div>
         <div>
             <p class="flex md:justify-center lg:justify-center">© 2025 — All rights reserved.</p>
