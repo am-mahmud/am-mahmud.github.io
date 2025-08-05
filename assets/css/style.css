@@ -18,7 +18,8 @@ body {
   background-color: #fafafa;
 }
 
-@keyframes float {
+/* float" style="animation-delay: 0.4s; */
+/* @keyframes float {
   0%,100% {
     transform: translateY(0);
   }
@@ -29,4 +30,4 @@ body {
 
 .float {
   animation: float 2.5s ease-in-out infinite;
-}
+} */
