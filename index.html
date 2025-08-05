@@ -8,19 +8,57 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
      <!-- Tailwind CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> 
-    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>NLD</title>
 </head>
-<body>
+<body class="px-4 md:px-8 lg:px-12 py-1 work-sans-font ">
     <header>
+        <div class="flex justify-center items-center">
+            <h1 class="text-[#000000] text-lg md:text-xl lg:text-2xl">Nomad</h1>
+            <img class="h-8 w-8" src="./assets/images/nomadlab - hero.png" alt="" srcset="">
+            <h1 class="text-[#000000] text-lg md:text-xl lg:text-2xl">Lab</h1>
+        </div>
+
+        <div>
+            <h1 class="text-center mt-16"><span class="text-[#000000] text-6xl md:text-9xl lg:text-9xl font-bold">Digital Craft </span><br><span class="text-sm lg:text-lg md:text-lg">— crafted for humans, built for the web.</span></h1>
+        </div>
+
+        <div class="flex justify-center items-center mt-10">
+            <button class="px-4 py-2 text-black text-lg font-medium hover:bg-[#E5E5E5] hover:text-black animate-bounce">Let's Talk</button>
+        </div>
+
+        <div class="text-black text-base flex justify-center mt-10 gap-1">
+            <ul class="relative top-8">
+                <li class="text-white hover:bg-[#E5E5E5] hover:text-black bg-black px-5 py-3"><a href="">Service</a></li>
+            </ul>
+            <ul class="relative top-4">
+                <li class="text-white  hover:bg-[#E5E5E5] hover:text-black bg-black px-5 py-3"><a href="">Work</a></li>
+            </ul>
+            <ul class="relative top-0">
+                <li class="text-white  hover:bg-[#E5E5E5] hover:text-black bg-black px-5 py-3"><a href="">Contact</a></li>
+            </ul>
+        </div>
 
     </header>
-    <main>
+    <main class="mt-26">
 
+        <h1 class="bg-[#E5E5E5] py-52 text-black text-4xl md:text-8xl lg:text-8xl font-bold px-10 leading-tight md:leading-[5rem] lg:leading-[8rem] ">Shhh! <br>Developer <br> is working.</h1>
+        
     </main>
     <footer>
-
+        <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-10 mt-16">
+            <div>
+             <p>&lt;code meets craft/&gt;</p>
+             <p class="text-black font-medium">Nomadlab.dev</p>
+        </div>
+        <div>
+            <p class="flex md:justify-center lg:justify-center">© 2025 — All rights reserved.</p>
+        </div>
+        <div class="flex space-x-2 md:justify-end lg:justify-end">
+            <i class="fa-brands fa-instagram fa-lg" style="color: #000000;"></i>
+            <i class="fa-brands fa-linkedin fa-lg" style="color: #000000;"></i>
+        </div>
+        </div>
     </footer>
 </body>
 </html>
