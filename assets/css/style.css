@@ -15,7 +15,7 @@
 }
 
 body {
-  background-color: #fafafa;
+  background-color: #EFEFEF;
 }
 
 /* float" style="animation-delay: 0.4s; */
@@ -31,3 +31,4 @@ body {
 .float {
   animation: float 2.5s ease-in-out infinite;
 } */
+
