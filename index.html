@@ -15,70 +15,52 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
     <!-- Tailwind CDN -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="./assets/js/main.js"></script>
   <title>Asif Mahmud</title>
 </head>
 
-<body class="px-4 md:px-8 lg:px-12 py-1">
+<body class="px-4 md:px-8 lg:px-12 py-1 bricolage-grotesque-normal">
 
   <header>
-    <div class="text-black text-xs sm:text-sm md:text-base lg:text-base flex justify-between">
-        <div>
-            <h1>@am-mahmud</h1>
-        </div>
-
-        <div class="flex flex-col md:flex-1 lg:flex-1 md:flex-row lg:flex-row md:justify-center lg:justify-center gap-2  md:gap-4 lg:gap-6">
-          <ul class="text-black hover:underline underline-offset-4 lg:underline-offset-5 decoration-[#FF4E01] decoration-2 px-1 text-xs sm:text-sm md:text-base lg:text-base">
-            <li>
-              <a href="#project">Project</a>
-            </li>
-          </ul>
-          <ul class="text-black hover:underline underline-offset-4 lg:underline-offset-5 decoration-[#FF4E01] decoration-2 px-1 text-xs sm:text-sm md:text-base lg:text-base">
-            <li
->
-              <a href="#service">Service</a>
-            </li>
-          </ul>
-          <ul class="text-black hover:underline underline-offset-4 lg:underline-offset-5 decoration-[#FF4E01] decoration-2 px-1 text-xs sm:text-sm md:text-base lg:text-base">
-            <li>
-              <a href="">About</a>
-            </li>
-          </ul>
-          <ul class="text-black hover:underline underline-offset-4 lg:underline-offset-5 decoration-[#FF4E01] decoration-2 px-1 text-xs sm:text-sm md:text-base lg:text-base">
-            <li>
-              <a href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
+    <nav class="flex justify-between items-center">
+      <div>
+          <img class="h-10 w-20" src="./assets/images/signature_no_bg-small.png" alt="">
       </div>
+      <div class="hidden md:block">
+        <button id="menuButton" type="button" class="px-3 py-1 bg-[#F9F9F9] text-black shadow-md rounded-lg">Menu</button>
+      </div>
+      <div>
+        <button type="button" class="px-3 py-1 bg-black text-white rounded-lg">Hire Me</button>
+      </div>
+    </nav>
   </header>
 
-  <main>
-
+  <main class="mt-8 md:mt-15">
+    <!-- main frame -->
+    <div class="flex flex-col justify-center items-center">
+        <!-- Childs frames -->
+        <div class="px-10 py-10 max-w-[35rem] bg-[#F9F9F9] text-black shadow-md rounded-lg flex flex-col justify-center items-center gap-3">
+          <h1 class="text-xl justify-center text-center">Hi, I am Asif Mahmud, Your<br>friendly neighborhood <strong>web developer.</strong></h1>
+          <button type="button" class="px-3 py-1 bg-black text-white rounded-lg">Book a call</button>
+        </div>
+    </div>
+   
+    
   </main>
 
-  <footer>
-    <div class="flex justify-center items-center mb-4 lg:mb-10">
-      <img class="h-20 md:lg-35 lg:h-35 w-auto" src="./assets/images/signature_no_bg.png" alt="">
-    </div>
-    <div class="flex flex-col md:flex-row lg:fle-row justify-between gap-3 mt-0">
-      <div>
-        <h1 class="text-xs md:text-sm lg:text-sm font-light">I'm always interested in new projects. If you have any questions or want <br> to discuss an idea, send me an email to <strong class="underline underline-offset-4 lg:underline-offset-5 decoration-[#FF4E01] decoration-2">am-mahmuasif@gmail.com.</strong></h1>
-      </div>
-      <div>
-        <i class="fa-brands fa-linkedin-in fa-4xs lg:fa-lg" style="color: #000000;"></i>
-        <i class="fa-brands fa-instagram fa-4xs lg:fa-lg" style="color: #000000;"></i>
-      </div>
-    </div>
-     <hr class="border-1 border-black mt-2 md:mt-5 lg:mt-5" />
-     <div class="flex flex-col md:flex-row lg:flex-row md:justify-between lg:justify-between text-xs gap-1 mt-2">
-      <div>
-        <p>2025 @made by am-mahmud</p>
-      </div>
-      <div>
-        <p><i class="fa-solid fa-circle fa-xs" style="color: #FF4E01"></i> available for project</p>
-      </div>
-     </div>
+  <footer class="mt-10 md:mt-15">
+        <div class="flex flex-col justify-center items-center gap-1 ">
+          <div>
+            <i class="fa-brands fa-linkedin-in text-lg sm:text-xl"></i>
+            <i class="fa-brands fa-github text-lg sm:text-xl"></i>
+            <i class="fa-brands fa-dribbble text-lg sm:text-xl"></i>
+          </div>
+          <div>
+            <h1 class="text-base">&copy; Asif Mahmud 2025</h1>
+          </div>
+        </div>
   </footer>
+
   
 </body>
 
